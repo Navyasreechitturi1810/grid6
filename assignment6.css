@@ -1,0 +1,84 @@
+#logo{
+    display: flex;
+}
+#main{
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    position: relative;
+    left: 25vw;
+    top: 10vw;
+   
+}
+.child{
+    box-shadow: 2px 3px 2px gray;
+}
+body{
+    background-color: azure;
+}
+.child2{
+    width: 30vw;
+    height: 50vh;
+    background-image: url(./asserts/img2.webp);
+}
+.child1{
+    width: 20vw;
+    height: 50vh;
+    background-image: url(./asserts/img2.webp);
+}
+i{
+    padding: 10px;
+    position: relative;
+    left: 160px;
+    top: 30px;
+}
+#p1{
+    color: gray;
+    font-size: 13px;
+    position: relative;
+    top:60px;
+
+}
+#p2{
+    color: gray;
+    font-size: 13px;
+    position: relative;
+    top:20px;
+}
+#h1{
+    position: relative;
+    top: 100px;
+}
+#b1{
+    position: relative;
+    top:60px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(51, 51, 230);
+    color: white;
+
+}
+#b2{
+    position: relative;
+    top:40px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(51, 51, 230);
+    color: white;
+
+}
+input{
+    position: relative;
+    top:30px;
+    height: 20px;
+    width: 250px;
+    background-color:azure ;
+    border: 1px solid lightgray;
+}
+#h2{
+    position: relative;
+    top:40px;
+}
